@@ -190,6 +190,9 @@ footer a {
   header {
     font-size: 2.375vw;
   }
+  .top-header {
+    padding-top: 4%;
+  }
   main {
     font-size: 2.375vw;
   }
