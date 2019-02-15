@@ -125,13 +125,16 @@ i {
 }
 
 .divisor p {
-  margin: 0;
+  margin: 1rem 0.5rem;
 }
 
 .divisor-title {
   /* font-weight: bold; */
   color: #d42d33;
-  margin-bottom: 0.5rem !important;
+}
+
+.divisor-content {
+  margin-bottom: 5%;
 }
 
 .bottom-section article div i {
@@ -156,9 +159,24 @@ footer {
   color: #757575;
 }
 
+footer p {
+  margin-bottom: 0;
+}
+
 footer a {
   text-decoration: none;
   color: #ffff;
+}
+
+.card-footer {
+  padding: 0.25rem 1rem;
+}
+
+.brand {
+  font-size: 1.5vw;
+  text-align: right;
+  margin: 0;
+  padding: 0;
 }
 
 /* tablets */
@@ -169,6 +187,21 @@ footer a {
 /* desktop */
 
 @media screen and (min-width: 992px) {
+  header {
+    font-size: 2.375vw;
+  }
+  main {
+    font-size: 2.375vw;
+  }
+  .card-title h1 {
+    font-size: 4vw;
+  }
+  .number {
+    font-size: 4vw;
+  }
+  i {
+    font-size: 8vw;
+  }
 }
 
 /* widescreen */
